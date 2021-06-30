@@ -1,16 +1,132 @@
 html,
 body {
-  padding: 0;
+  color: black;
+  font-family: 'Andada', serif;
+  text-align: center;
+}
+
+#content {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+  max-width: 960px;
+
+  grid-template-areas:
+    "header"
+    "aside "
+    "main"
+    "footer ";
+}
+
+
+/* desktop grid */
+@media screen and (min-width: 760px) {
+  #content {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    max-width: 100%;
+    grid-template-areas:
+      "header header header header header header"
+      "main main main main aside aside"
+      "footer footer footer footer footer footer";
+  }
+}
+
+body {
+  background: #FFF9F1;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  padding: 0;
+}
+
+p {
+  text-align: left;
+  font-size: 3vw;
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
+  text-decoration: underline;
+  color: black
 }
 
-* {
-  box-sizing: border-box;
+a:visited {
+  color: black;
+}
+
+#content>* {
+  background: #FFF9F1;
+}
+
+header {
+  grid-area: header;
+  margin: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+header nav {
+  align-self: center;
+  font-size: 2vw;
+  margin: 2vw;
+}
+
+header .logo {
+  align-self: center;
+  font-size: 2vw;
+  margin: 2vw 2vw 2vw 2vw;
+}
+
+.intro {
+  margin: 20vw 10vw 10vw 10vw;
+
+}
+
+
+main {
+  grid-area: main;
+}
+
+aside {
+  grid-area: aside;
+}
+
+.robpic {
+  border-radius: 20%;
+  margin-top: 1vw;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  height: 50vw;
+  object-fit: cover;
+  object-position: 35% 0;
+}
+
+nav {
+  grid-area: nav;
+}
+
+section {
+  grid-area: section;
+}
+
+footer {
+  grid-area: footer;
+  color: #FFF9F1;
+  background: #1F1F1F !important;
+}
+
+.footer-text {
+  margin: 5vw;
+}
+
+.footer-text a {
+  color: #FFF9F1;
+}
+
+footer .ps {
+  font-size: 1.5vw;
+}
+
+footer .pps {
+  font-size: 1.25vw;
 }
