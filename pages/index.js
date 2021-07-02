@@ -16,14 +16,14 @@ export default function Home() {
         <div id="content">
 
           <header>
-            <div className="logo">Rob McWhiter</div>
+            <div className="logo"><h1>Rob McWhiter</h1></div>
             <nav>
               <a href="https://medium.com/@Rob_McW" target="blank"> Writing </a>
             </nav>
           </header>
           <main>
             <section className="intro">
-              <p>I’m Rob, an app founder, product manager, and web hobbyist based in Barcelona and London. </p>
+              <p><span className="dropcap">I</span>’m Rob, an app founder, product manager, and web hobbyist based in Barcelona and London. </p>
               <p>I love making web products like the Slackbot, <a href="https://revelapp.io" target="blank">Revel </a>
 					and SaaS app
 					<a href="https://twineapp.com" target="blank"> Twine</a> whilst my role at <a
@@ -43,12 +43,12 @@ export default function Home() {
           </main>
           <aside>
             <div className="robpic">
-              <Image src="/rob.jpg" width="800" height="1200" objectFit="cover" objectPosition="35% 0" alt="Photo of Rob smiling with sunglasses" />
+              <Image src="/rob.jpg" layout="fill" objectFit="cover" objectPosition="35% 0" alt="Photo of Rob smiling with sunglasses" />
             </div>
           </aside>
           <footer>
             <div className="footer-text">
-              <p>Email me at <u>rob@robmcw.com</u> or see more on <a href="https://www.linkedin.com/in/robertmcwhirter/"
+              <p>Email me at <u></u>rob@robmcw.com or see more on <a href="https://www.linkedin.com/in/robertmcwhirter/"
                 target="blank">LinkedIn</a>.</p>
               <p className="ps">Site by Rob. Code on <a href="https://github.com/robmcw" target="blank">GitHub</a>. I
 					reserve the right
