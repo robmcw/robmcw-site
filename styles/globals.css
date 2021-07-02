@@ -26,7 +26,7 @@ body {
 
 p {
   text-align: left;
-  font-size: 3vw;
+  font-size: 6vw;
 }
 
 h1 {
@@ -103,7 +103,6 @@ section {
 }
 
 footer {
-  display: flex;
   position: sticky;
   bottom: 0;
   margin-top: 150px;
@@ -142,6 +141,10 @@ footer .pps {
       "footer footer footer footer footer footer";
   }
 
+  p {
+    text-align: left;
+    font-size: 3vw;
+  }
 
 .robpic {
   margin-top: 1vw;
