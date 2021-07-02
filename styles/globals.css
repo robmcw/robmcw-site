@@ -30,7 +30,7 @@ p {
 }
 
 h1 {
-  font-size: 3vw;
+  font-size: 4vw;
 }
 
 a {
@@ -63,12 +63,11 @@ header nav {
 }
 
 header a {
-  font-size: 3vw;
+  font-size: 4vw;
 }
 
 header .logo {
   align-self: center;
-  font-size: 2vw;
   margin: 2vw 2vw 2vw 2vw;
 }
 
@@ -120,11 +119,7 @@ footer {
 }
 
 footer .ps {
-  font-size: 1.5vw;
-}
-
-footer .pps {
-  font-size: 1.25vw;
+  font-size: 3.5vw;
 }
 
 
@@ -146,15 +141,6 @@ footer .pps {
     font-size: 3vw;
   }
 
-.robpic {
-  margin-top: 1vw;
-  position: sticky;
-  top: 0;
-  width: 100%;
-  height: 50vw;
-  object-position: 35% 0;
-}
-
 
 header nav {
   align-self: center;
@@ -175,6 +161,9 @@ footer {
   background: #1F1F1F !important;
 }
 
+footer .ps {
+  font-size: 1.25vw;
+}
 
 }
 

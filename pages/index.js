@@ -24,9 +24,8 @@ export default function Home() {
           <main>
             <section className="intro">
               <p><span className="dropcap">I</span>’m Rob, an app founder, product manager, and web hobbyist based in Barcelona and London. </p>
-              <p>I love making web products like the Slackbot, <a href="https://revelapp.io" target="blank"> Revel</a> and SaaS app
-					<a href="https://twineapp.com" target="blank"> Twine</a> whilst my role at <a
-                  href="https://www.browserlondon.com" target="blank"> Browser London</a> sees me guide established companies and startups to create the great software to solve real
+              <p>I love making web products like the Slackbot, <a href="https://revelapp.io" target="blank">Revel</a> and SaaS app <a href="https://twineapp.com" target="blank">Twine</a> whilst my role at <a
+                href="https://www.browserlondon.com" target="blank"> Browser London</a> sees me guide established companies and startups to create the great software to solve real
 					problems.
 				</p>
               <p>I also have a knack for creating explainer videos for new tools, like the one I did for <a
